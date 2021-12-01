@@ -1,0 +1,44 @@
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  body{
+    background-color: lightblue;
+  }
+
+  .main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .content{
+
+    text-align: center;
+    }
+
+  .content h1{
+  }
+
+  #message{
+    font-family: 'Kumbh Sans', sans-serif;
+
+  }
+
+  #text{
+    font-size: 20px;
+    width: 85%;
+  }
+    textarea:focus{
+
+      animation: border-color-change;
+      animation-duration: 10s;
+      animation-fill-mode: forwards;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+
+    }
